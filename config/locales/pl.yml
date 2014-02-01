@@ -1,0 +1,464 @@
+pl:
+  gitlab:
+    name: "GitLab"
+    description: "Gitlab to oprogramowanie open source służące do współpracy nad kodem."
+    public_projects: "publiczne projekty"
+
+    dashboard:
+      filter_by_name: "Filtruj po nazwie"
+      last_activity: "Ostatnia aktywność:"
+      no_activity: "Nie ma żadnej aktywności projektowej."
+      menu:
+        help: "Pomoc"
+        issues: "Problemy"
+        merge_requests: "Prośby o włączenie"
+        projects: "Projekty"
+
+    events:
+      comments: "Komentarze"
+      merge_events: "Prośby o włączenie"
+      push_events: "Prośby push"
+      team: "Zespół"
+
+    filter:
+      all: "Wszystkie"
+      assigned_to_me: "Przydzielone mi"
+      clear_filter: "Wyczyść filter"
+      closed: "Zamknięte"
+      created_by_me: "Utworzone przeze mnie"
+      open: "Otwarte"
+      private: "Prywatne"
+      projects: "Projekty"
+      public: "Publiczne"
+
+    groups:
+      create_group: "Dodaj grupę"
+      desc_1: "Grupa to zbiór kilku projektów"
+      desc_2: "Grupy domyślnie są prywatne"
+      desc_3: "Członkowie grupy mogą jedynie przeglądać projekty do których mają dostęp"
+      desc_4: "Projekty należące do. grupy mają prefiks grupy w URL"
+      desc_5: "Istniejące projekty można przesunąć do grupy"
+      details: "Opis"
+      group_name: "Nazwa grupy"
+      group_name_example: "Np. OpenSource"
+      groups: "Grupy"
+      new_group: "Nowa grupa"
+      visibility: "Widoczność"
+
+    issues:
+      issues: "Problemy"
+      list_of_all_issues: "Lista wszytkich problemów z projektów do których masz dostęp."
+      nothing_here: "Brak problemów"
+      total_count__issues: "problemów"
+
+    login:
+      already_have_login_and_password: "Masz już login i hasło?"
+      did_not_receive_confirmation_email: "Potwierdzenie adresu email nie dotarło?"
+      forgot_your_password: "Zapomniałeś hasło?"
+      or_browse_for: "lub przeglądaj"
+      remember_me: "Zapamiętaj mnie"
+      resend_confirmation_instructions: "Wyślij ponownie potwierdzenie adresu email"
+      send_again: "Wyślij jeszcze raz"
+      sign_in: "Zaloguj się"
+      username_or_email: "Nazwa użytkownika lub email"
+
+    merge_requests:
+      list_of_all_merge_requests: "Lista wszystkich próśb o włączenie do których masz dostęp"
+      merge_requests: "Prośby o włączenie"
+      nothing_here: "Brak próśb o włączenie"
+      total_count__merge_requests: "próśb o włączenie"
+
+    panel:
+        admin_area: "Strefa admina"
+        logout: "Wyloguj się"
+        my_snippets: "Moje snippety"
+        new_project: "Nowy projekt"
+        profile_settings: "Ustawienia profilu"
+        public_area: "Strefa publiczna"
+        user_activity: "Moja aktywność"
+
+    profile:
+      bio: "O mnie"
+      bio_description: "Napisz coś o sobie w mniej niż 250 znakach."
+      email: "E-mail"
+      email_for_avatar_detection: "Twój adres e-mail zostanie także użyty do detekcji Twojego avatara jeśli go nie dodasz."
+      enter_your_name: "Podaj swoje imię i nazwisko żeby ludzie których znasz rozpoznali Cię."
+      name: "Imię i nazwisko"
+      profile_settings: "Ustawienia profilu"
+      save_changes: "Zapisz zmiany"
+      this_information_appears_on_your_profile: "Te informacje występują na Twoim profilu."
+      website: "Strona WWW"
+      account:
+        account_settings: "Ustawienia konta"
+        are_you_sure: "Napewno?"
+        keep_it_secret: "Utrzymaj go w tajemnicy."
+        path_change_msg: "Zmiana nazwy użytkownika spowoduje zmianę URL do wszystkich prywatnych projektów!"
+        private_token: "Prywatny token"
+        reset: "Nowy"
+        save_username: "Zapisz użytkownika"
+        token_desc_1: "Prywatny token służy do otrzymania dostępu do zasobów aplikacji bez potrzeby autentykacji."
+        token_desc_2: "Można go użyć do feedów atom lub do dostępu do API."
+        username: "Nazwa użytkownika"
+        you_can_change_username_here: "Możesz zmienić tu nazwę użytkownika i prywatny token."
+      menu:
+        account: "Konto"
+        design: "Wygląd"
+        groups: "Grupy"
+        history: "Historia"
+        notifications: "Powiadomienia"
+        password: "Hasło"
+        ssh_keys: "Klucze SSH"
+      password:
+        change_your_password_description: "Zmień hasło lub odzyskaj obecne hasło."
+        current_password: "Obecne hasło"
+        must_provide_current_password: "Musisz podać obecne hasło aby móc je zmienić."
+        new_password: "Nowe hasło"
+        password_confirmation: "Potwierdzenie hasła"
+        save_password: "Zapisz hasło"
+        title: "Hasło"
+        you_will_be_redirected_to_login_page: "Po udanej zmianie hasła zostaniesz przekierowany do strony logowania aby zalogować się używając nowego hasła."
+      notifications:
+        advanced_notifications_settings: "Zaawansowane ustawienia:"
+        disabled: "Wyłączone"
+        disabled_description: "Nie otrzymasz żadnych powiadomień"
+        global_setting: "Globalne ustawienie"
+        groups: "Grupy:"
+        notifications_description: "GitLab używa adresu e-mail podanego w profilu powiadomień"
+        notifications_settings: "Ustawienia powiadomień"
+        participating: "Tylko współpraca"
+        participating_description: "Otrzymasz jedynie powiadomienia z powiązanych zasobów (np. o Twoich commitach lub przydzielonych problemach)"
+        projects: "Projekty:"
+        use_global_setting: "Użyj ustawienia globalnego"
+        watch: "Obserwowane"
+        watch_description: "Otrzymasz wszystkie powiadomoenia z projektów w których bierzesz udział "
+      ssh_keys:
+        add_key: "Dodaj klucz"
+        add_ssh_key: "Dodaj klucz SSH"
+        cancel: "Zrezygnuj"
+        desc1: "Klucze SSH pozwają na bezpieczne połączenie Twojego komputeraz GitLabem"
+        desc2: "Zanim dodasz klucz musisz go:"
+        generate_it: "wygenerować"
+        key: "Klucz"
+        my_ssh_keys: "Moje klucze SSH"
+        no_ssh_keys: "Nie ma żadnych kluczy SSH powiązanych z Twoim kontem."
+        paste_your_public_key_here: "Wklej swój klucz publiczny tu. Więcej o tym jak wygnerować klucz znajduje się"
+        ssh_help_page: "na stronie pomocy SSH"
+        ssh_keys: "klucze SSH "
+        title: "Nazwa"
+      design:
+        appearance_settings_description: "Utawienia wyglądu zapisane w Twoim profilu i dostępne na wszystkich urządzeniach"
+        application_theme: "Skórka aplikacji"
+        my_appearance_settings: "Ustawienia wyglądu"
+        themes:
+          classic: "Klasyczna"
+          default: "Domyślna"
+          gray: "Szara"
+          modern: "Nowoczesna"
+          violet: "Fioletowa"
+
+    projects:
+      all_projects_you_have_access_to_are_listed_here: "Tu znajdują się wszystkie projekty do których masz dostęp. Projekty publiczne znajdują się tu jedynie jeśli jesteś ich członkiem."
+      create_a_group: "Stwórz grupę"
+      create_project: "Dodaj projekt"
+      customize_directory_name: "Własna nazwa katalogu projektu?"
+      description: "Opis"
+      description_example: "Projekt pierwsza klasa"
+      example_project: "Przykładowy projekt"
+      filter_by_name: "Filtruj po nazwie"
+      import_existing_repository: "Zaimportuj repozytorium"
+      import_existing_repository_question: "Zaimportuj istniejące repozytorium"
+      my_projects: "Moje projekty"
+      namespace: "Przestrzeń nazw"
+      need_a_group_for_dependent_projects: "Chcesz stworzyć grupę dla zależnych projektów?"
+      new_project: "Nowy projekt"
+      no_public_projects: "Brak projektów publicznych"
+      optional: "(opcja)"
+      project_name: "Nazwa projektu"
+      projects: "Projekty"
+      public_projects: "Projekty publiczne"
+      public_projects_read_only: "Przeglądasz projekty publiczne w trybie do odczytu dopóki się nie zalogujesz."
+      repository_name: "Nazwa repozytorium"
+      url_must_be_cloneable: "URL musi dać się sklonować"
+      filter:
+        all: "Wszystkie"
+        personal: "Prywatne"
+        joined: "Z dostępem"
+        owned: "Własne"
+        everyones: "Wszystkich"
+
+    search:
+      search: "Szukaj"
+      search_in_this_group: "Szukaj w grupie"
+      search_in_this_project: "Szukaj w projecie"
+
+    snippets:
+      access: "Dostęp"
+      add_new_snippet: "Dodaj nowy snippet"
+      are_you_sure: "Na pewno?"
+      cancel: "cancel"
+      create_snippet: "Stwórz snippet"
+      delete: "Skasuj"
+      delete_snippet: "Skasuj snippet"
+      description: "Dziel się fragmentami kodu bez używania repozytorium git."
+      discover_snippets: "Odkryj snippety"
+      edit: "Edytuj"
+      edit_snippet: "Edytuj snippet"
+      edit_snippet: "Edytujesz snippet"
+      example_filename: "przyklad.rb"
+      example_snippet: "Przykładowy snippet"
+      file: "Plik"
+      my_snippets: "Moje snippety"
+      new_snippet: "Nowy snippet"
+      private: "Prywatny (tylko Ty możesz oglądać ten snippet)"
+      public: "Publiczny (wszyscy użytkownicy GitLabu mogą zobaczyć ten snippet)"
+      public_snippets: "Publiczne snippety"
+      public_snippets_description: "Publicznie dostępne snippety stworzone przez Ciebie i innych użytkowników znajdują się tutaj."
+      raw: "Źródło"
+      remove: "Usuń"
+      remove_snippet_warning: "Nie da się przywrócić usuniętych snippetów, czy napewno usunąć?"
+      save: "Zapisz"
+      snippets: "Snippety"
+      title: "Tytuł"
+
+    sort:
+      last_updated: "Najstarsze aktualizaje"
+      name: "Po nazwie"
+      newest: "Najnowsze"
+      oldest: "Najstarsze"
+      recently_updated: "Najnowsze aktualizacje"
+
+    users:
+      edit_profile_settings: "Edytuj ustawienia profilu"
+      member_since: "Zarejestrowany od"
+      profile: "Profil"
+      user_activity: "Aktywność użytkownia"
+
+    visibility:
+      internal: "Wewnętrzny"
+      private: "Prywatny"
+      public: "Publiczny"
+
+  date:
+    abbr_day_names:
+    - nie
+    - pon
+    - wto
+    - śro
+    - czw
+    - pią
+    - sob
+    abbr_month_names:
+    -
+    - sty
+    - lut
+    - mar
+    - kwi
+    - maj
+    - cze
+    - lip
+    - sie
+    - wrz
+    - paź
+    - lis
+    - gru
+    day_names:
+    - niedziela
+    - poniedziałek
+    - wtorek
+    - środa
+    - czwartek
+    - piątek
+    - sobota
+    formats:
+      default: ! '%d-%m-%Y'
+      long: ! '%B %d, %Y'
+      short: ! '%d %b'
+    month_names:
+    -
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        few: około %{count} godziny
+        one: około godziny
+        other: około %{count} godzin
+        many: około %{count} godzin
+      about_x_months:
+        few: około %{count} miesiące
+        one: około miesiąca
+        other: około %{count} miesięcy
+        many: około %{count} miesięcy
+      about_x_years:
+        few: około %{count} lata
+        one: około rok
+        other: około %{count} lat
+        many: około %{count} lat
+      almost_x_years:
+        few: prawie %{count} lata
+        one: prawie rok
+        other: prawie %{count} lat
+        many: prawie %{count} lat
+      half_a_minute: pół minuty
+      less_than_x_minutes:
+        few: mniej niż %{count} minuty
+        one: mniej niż minutę
+        other: mniej niż %{count} minut
+        many: mniej niż %{count} minut
+      less_than_x_seconds:
+        few: mniej niż %{count} sekundy
+        one: mniej niż sekundę
+        other: mniej niż %{count} sekund
+        many: mniej niż %{count} sekund
+      over_x_years:
+        few: ponad %{count} lata
+        one: ponad rok
+        other: ponad %{count} lat
+        many: ponad %{count} lat
+      x_days:
+        few: ! '%{count} dni'
+        one: 1 dzień
+        other: ! '%{count} dni'
+        many: ! '%{count} dni'
+      x_minutes:
+        few: ! '%{count} minuty'
+        one: 1 minuta
+        other: ! '%{count} minut'
+        many: ! '%{count} minut'
+      x_months:
+        few: ! '%{count} miesiące'
+        one: 1 miesiąc
+        other: ! '%{count} miesięcy'
+        many: ! '%{count} miesięcy'
+      x_seconds:
+        few: ! '%{count} sekundy'
+        one: 1 sekunda
+        other: ! '%{count} sekund'
+        many: ! '%{count} sekund'
+    prompts:
+      day: Dzień
+      hour: Godzina
+      minute: Minuta
+      month: Miesiąc
+      second: Sekundy
+      year: Rok
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: musi zostać zaakceptowane
+      blank: nie może być puste
+      confirmation: nie zgadza się z potwierdzeniem
+      empty: nie może być puste
+      equal_to: musi być równe %{count}
+      even: musi być parzyste
+      exclusion: jest zarezerwowane
+      greater_than: musi być większe od %{count}
+      greater_than_or_equal_to: musi być większe lub równe %{count}
+      inclusion: nie znajduje się na liście dopuszczalnych wartości
+      invalid: jest nieprawidłowe
+      less_than: musi być mniejsze od %{count}
+      less_than_or_equal_to: musi być mniejsze lub równe %{count}
+      not_a_number: nie jest liczbą
+      not_an_integer: musi być liczbą całkowitą
+      odd: musi być nieparzyste
+      record_invalid: ! 'Negatywne sprawdzenie poprawności: %{errors}'
+      taken: zostało już zajęte
+      too_long: jest za długie (maksymalnie %{count} znaków)
+      too_short: jest za krótkie (przynajmniej %{count} znaków)
+      wrong_length: ma nieprawidłową długość (powinna wynosić %{count} znaków)
+    template:
+      body: ! 'Błędy dotyczą następujących pól:'
+      header:
+        one: ! '%{model} nie został zachowany z powodu jednego błędu'
+        few: ! '%{model} nie został zachowany z powodu %{count} błędów'
+        other: ! '%{model} nie został zachowany z powodu %{count} błędów'
+        many: ! '%{model} nie został zachowany z powodu %{count} błędów'
+  helpers:
+    select:
+      prompt: Proszę wybrać
+    submit:
+      create: Utwórz %{model}
+      submit: Zapisz %{model}
+      update: Aktualizuj %{model}
+  number:
+    currency:
+      format:
+        delimiter: ! ' '
+        format: ! '%u %n'
+        precision: 2
+        separator: ! ','
+        significant: false
+        strip_insignificant_zeros: true
+        unit: zł
+    format:
+      delimiter: ! ' '
+      precision: 3
+      separator: ! ','
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: Miliard
+          million: Milion
+          quadrillion: Biliard
+          thousand: Tysiąc
+          trillion: Bilion
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: bajt
+            few: bajty
+            many: bajty
+            other: bajty
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ' oraz '
+      two_words_connector: ! ' i '
+      words_connector: ! ', '
+  time:
+    am: przed południem
+    formats:
+      default: ! '%a, %d %b %Y %H:%M:%S %z'
+      long: ! '%B %d, %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: po południu
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors
